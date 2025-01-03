@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 const bcrypt = require('bcryptjs');
 // const Admin = require('../Model/Admin.js');
-const Admin = require('../Model/Admin.js');
+const Admin = require('../src/Model/Admin.js');
 
 app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, '../public/Pages')));
