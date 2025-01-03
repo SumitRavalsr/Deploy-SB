@@ -28,6 +28,6 @@ const AdminSchema = new mongoose.Schema({
     service: { type: String, required: true }
 });
 
-const Admin = mongoose.model('Admin', AdminSchema);
+const Admin = mongoose.model('admin', AdminSchema);
 
 module.exports = Admin;
